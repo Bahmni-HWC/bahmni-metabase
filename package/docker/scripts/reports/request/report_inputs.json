@@ -19,5 +19,12 @@
     "pivot_column": "coded_diagnosis",
     "cell_column":"Count",
     "db_ref_name": "mart"
+  },
+  {
+    "name":"Childres below 5 years",
+    "sql":"ChildrenBelowFiveYears",
+    "pivot_column": "Age",
+    "cell_column":"Sr. No.",
+    "db_ref_name": "openmrs"
   }
 ]
