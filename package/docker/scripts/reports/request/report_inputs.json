@@ -21,7 +21,7 @@
     "db_ref_name": "mart"
   },
   {
-    "name":"Childres below 5 years",
+    "name":"Children below 5 years",
     "sql":"ChildrenBelowFiveYears",
     "pivot_column": "Age",
     "cell_column":"Sr. No.",
