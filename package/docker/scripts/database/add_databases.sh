@@ -21,6 +21,14 @@ get_db_data()
             "DB_PASSWORD": "${MART_DB_PASSWORD}",
             "DB_TYPE": "postgres",
             "DB_REF_NAME": "mart"
+        },
+        {
+            "DB_HOST": "${AVNI_DB_HOST}",
+            "DB_NAME": "${AVNI_DB_NAME}",
+            "DB_USERNAME": "${AVNI_DB_USERNAME}",
+            "DB_PASSWORD": "${AVNI_DB_PASSWORD}",
+            "DB_TYPE": "postgres",
+            "DB_REF_NAME": "avni"
         }
     ]
 EOF
